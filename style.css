@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.logo img{
+    height: 50px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("jeremiah-ross-zywfbrhNeU8-unsplash.jpg");
+background-size: cover;
+background-position: center;
+
+
+    
+
+
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+nav ul li{
+    display: inline-block;
+    justify-items: flex-end;
+    align-items: center;
+   padding-top: 10px;
+   margin: auto;
+   padding-left: 60px;
+   color: rgb(222, 212, 212);
+   text-align: end;
+   
+
+
+}
+.logo{
+    padding-top: 20px;
+}
+.logo img{
+    background-image: linear-gradient(rgba(11, 23, 69, 0.7),rgba(4,9,30,0.7)),url("pexels-enginakyurt-15483667.jpg");
+    border-radius: 50%;
+}
+
+.navlinks ul li ::after{
+    content: '';
+  height: 2px;
+    width: 0%;
+    background: rgb(255, 180, 110);
+    padding: 1px 10px;
+    margin: auto; 
+display: block;
+transition: 0.5s;
+
+}
+.navlinks ul li a:hover::after{
+    width: 100%;
+    
+}
+.navlinks ul li a{
+    color: rgb(231, 220, 244);
+    text-decoration: none;
+}
+.palestine{
+    width: 90%;
+    position: absolute;
+    top: 45%;
+   left: 7%;
+    text-align: center;
+}
+.palestine h1{
+    font-weight: bolder;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.palestine p{
+    font-size: 1rem;
+    color: antiquewhite;
+    text-align: center;
+}
+.herobtn{
+    background-color: transparent;
+    border: 1px solid bisque;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+.herobtn:hover{
+    background-color:rgb(255, 180, 110) ;
+    border: 1px solid orange;
+}
+.herobtn a{
+   
+    margin-top: 10px;
+}
+.palestine a{
+    padding: 10px;
+    position: relative;
+   top: 30px;
+}
+@media(max-width:700px){
+    .palestine h1{
+        font-weight: bold;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    } 
+    .palestine p{
+        font-size: 0.85rem;
+        color: antiquewhite;
+        text-align: center;
+    }
+    .navlinks{
+        position: absolute;
+        background-color: orangered;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: center;
+        z-index: 2;
+        transition: 1s;
+  
+       
+    }
+    .navlinks ul  li{ 
+display: block;
+    }
+    .fa-xmark {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .navlinks ul {
+        padding: 30px;
+    }
+    .herobtn:hover{
+        background-color:rgb(255, 180, 110) ;
+        border: 1px solid orange;
+    }
+
+    
+   
+
+}
+.row2 h1{
+    padding-top: 100px;
+}
+
+.layer1 h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(205, 53, 53);
+    text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  
+}
+.layer1 p{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+}
+.outerrow2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    gap: 10px;
+
+}
+.outerrow2 h1{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+    position: relative;
+    left: 5%;
+   
+
+}
+.outerrow2 p{
+    font-size: 0.85rem;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.outer{
+    background-color: rgba(223, 208, 217, 0.374);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+   
+
+ 
+
+
+
+
+
+}
+.outer:hover{
+    box-shadow: 7px 7px 7px 7px  grey;
+
+}
+@media (max-width:700px){
+    .outerrow2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+       
+    
+    }
+    .outerrow2 h1{
+        position: relative;
+        left: 6px;
+    }
+    .outerrow2 p{
+       text-align: center;
+       
+    }
+
+}
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px;
+
+
+}
+.campus h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(205, 53, 53);
+    text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  
+}
+.campus p{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 40px;
+  
+}
+.campus-col{
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    height: 300px;
+
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(226, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+.layer:hover{
+    opacity: 1;
+}
+.layer h3{
+    color: #fff;
+    margin: 0;
+    font-size: 24px;
+    transform: translateY(100%);
+    transition: transfoam 0.5s ease;
+
+
+}
+.campus-col:hover .layer h3{
+    transform: translateY(0);
+}
+.ali h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(205, 53, 53);
+    text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 60px;
+}
+.ali p{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+}
+.row3{
+    display: flex;
+    margin: auto;
+    flex-basis: 32%;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.how img{
+  margin-right: 20%;
+  align-items: center;
+ display: flex;
+ justify-content: center;
+ 
+}
+.how h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+@media(max-width:700px){
+    .row3{
+       display: block;
+     text-align: center;
+    
+    }
+    
+}
+.row4{
+    display: flex;
+
+padding-bottom: 40px;
+margin: 40px;
+gap: 100px;
+border-radius: 10px;
+}
+.row4 p{
+text-align: center;
+}
+.testimonial h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(205, 53, 53);
+    text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 60px;
+}
+.testimonail p{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+   
+}
+.person1{
+     background-color: rgb(247, 241, 241);
+     border-radius: 10px;
+}
+.row4 i{
+    color: #f44336;
+}
+@media(max-width:700px){
+    .person1 p{
+        font-size: 0.75rem;
+    }
+    .person1  img{
+        border-radius: 50%;
+    }
+}
+@media(max-width:700px){
+    .layer h3{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:700px){
+    .how P{
+        text-align: left;
+    }
+}
+@media(max-width:700px){
+    .testimonial P{
+     font-size: 0.85rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+}
+#contact {
+    padding: 50px 0;
+    background: #8b3d3d;
+    color: white;
+  }
+  
+  #contact .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #contact .contact-left {
+    width: 45%;
+  }
+  
+  #contact .contact-right {
+    width: 45%;
+  }
+  
+  #contact .contact-left .social-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #contact .contact-left .btn1 {
+    background: white;
+    color: #1abc9c;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  #contact .contact-right form input, #contact .contact-right form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+  
+  #contact .contact-right form .btn2 {
+    background: white;
+    color: #1c9680;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
